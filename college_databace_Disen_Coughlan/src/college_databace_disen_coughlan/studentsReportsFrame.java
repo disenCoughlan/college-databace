@@ -5,6 +5,12 @@
  */
 package college_databace_disen_coughlan;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  *
  * @author disen
@@ -29,7 +35,7 @@ public class studentsReportsFrame extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         backB = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        DistinctionB = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
@@ -53,7 +59,12 @@ public class studentsReportsFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("jButton1");
+        DistinctionB.setText("all students who got Distinction");
+        DistinctionB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                DistinctionBActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("jButton2");
 
@@ -88,7 +99,7 @@ public class studentsReportsFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton1)
+                        .addComponent(DistinctionB)
                         .addGap(18, 18, 18)
                         .addComponent(jButton4)
                         .addGap(18, 18, 18)
@@ -118,7 +129,7 @@ public class studentsReportsFrame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
+                    .addComponent(DistinctionB)
                     .addComponent(jButton4)
                     .addComponent(jButton7))
                 .addGap(18, 18, 18)
@@ -160,6 +171,34 @@ public class studentsReportsFrame extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_backBActionPerformed
 
+    private void DistinctionBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DistinctionBActionPerformed
+       //select students.first_name,students.last_name from students,students_results where exam = "Distinction";
+       try{
+            String url = "jdbc:mysql://127.0.0.1:3306/";
+            String dbName = "college";
+            String driver = "com.mysql.jdbc.Driver";
+            String userName = "root";
+            String password = "987456321Dc";
+            //Class.forName(driver).newInstance();
+            Connection conn = DriverManager.getConnection(url+dbName,userName,password);
+            //Connection con = DriverManager.getConnection(host);
+            PreparedStatement prest;
+            //SQL
+            String sql = "select students.first_name,students.last_name from students,students_results where exam = \"Distinction\";";
+
+            prest = conn.prepareStatement(sql);
+            //Results of the sql stored in the resultSet rs1
+            ResultSet rs1 = prest.executeQuery();
+            //This will loop and show all the results from the sql query
+            while (rs1.next()){
+                
+            }
+        }
+        catch (SQLException err) {
+            System.out.println(err.getMessage());
+        }
+    }//GEN-LAST:event_DistinctionBActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -196,8 +235,8 @@ public class studentsReportsFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton DistinctionB;
     private javax.swing.JButton backB;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
