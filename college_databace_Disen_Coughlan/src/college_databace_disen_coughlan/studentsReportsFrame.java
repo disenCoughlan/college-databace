@@ -5,6 +5,7 @@
  */
 package college_databace_disen_coughlan;
 
+import classes.reports;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -23,7 +24,7 @@ public class studentsReportsFrame extends javax.swing.JFrame {
     public studentsReportsFrame() {
         initComponents();
     }
-
+reports r1 = new reports();
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -67,6 +68,11 @@ public class studentsReportsFrame extends javax.swing.JFrame {
         });
 
         jButton2.setText("jButton2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("jButton3");
 
@@ -172,32 +178,12 @@ public class studentsReportsFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_backBActionPerformed
 
     private void DistinctionBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DistinctionBActionPerformed
-       //select students.first_name,students.last_name from students,students_results where exam = "Distinction";
-       try{
-            String url = "jdbc:mysql://127.0.0.1:3306/";
-            String dbName = "college";
-            String driver = "com.mysql.jdbc.Driver";
-            String userName = "root";
-            String password = "987456321Dc";
-            //Class.forName(driver).newInstance();
-            Connection conn = DriverManager.getConnection(url+dbName,userName,password);
-            //Connection con = DriverManager.getConnection(host);
-            PreparedStatement prest;
-            //SQL
-            String sql = "select students.first_name,students.last_name from students,students_results where exam = \"Distinction\";";
-
-            prest = conn.prepareStatement(sql);
-            //Results of the sql stored in the resultSet rs1
-            ResultSet rs1 = prest.executeQuery();
-            //This will loop and show all the results from the sql query
-            while (rs1.next()){
-                
-            }
-        }
-        catch (SQLException err) {
-            System.out.println(err.getMessage());
-        }
+       r1.report1();
     }//GEN-LAST:event_DistinctionBActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        //
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
