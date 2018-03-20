@@ -37,7 +37,7 @@ reports r1 = new reports();
         jPanel1 = new javax.swing.JPanel();
         backB = new javax.swing.JButton();
         DistinctionB = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        noOfStudentsB = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
@@ -67,10 +67,10 @@ reports r1 = new reports();
             }
         });
 
-        jButton2.setText("jButton2");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        noOfStudentsB.setText("amount of students");
+        noOfStudentsB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                noOfStudentsBActionPerformed(evt);
             }
         });
 
@@ -111,7 +111,7 @@ reports r1 = new reports();
                         .addGap(18, 18, 18)
                         .addComponent(jButton7))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton2)
+                        .addComponent(noOfStudentsB)
                         .addGap(18, 18, 18)
                         .addComponent(jButton5)
                         .addGap(18, 18, 18)
@@ -140,7 +140,7 @@ reports r1 = new reports();
                     .addComponent(jButton7))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
+                    .addComponent(noOfStudentsB)
                     .addComponent(jButton5)
                     .addComponent(jButton8))
                 .addGap(18, 18, 18)
@@ -181,9 +181,9 @@ reports r1 = new reports();
        r1.report1();
     }//GEN-LAST:event_DistinctionBActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        //
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void noOfStudentsBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_noOfStudentsBActionPerformed
+       r1.report2();
+    }//GEN-LAST:event_noOfStudentsBActionPerformed
 
     /**
      * @param args the command line arguments
@@ -226,7 +226,6 @@ reports r1 = new reports();
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -235,5 +234,6 @@ reports r1 = new reports();
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton noOfStudentsB;
     // End of variables declaration//GEN-END:variables
 }

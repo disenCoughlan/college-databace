@@ -53,6 +53,12 @@ public class loginFrame extends javax.swing.JFrame {
 
         userNameL.setText("user name");
 
+        passwordPf.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                passwordPfKeyPressed(evt);
+            }
+        });
+
         passwordL.setText("password");
 
         loginB.setText("login");
@@ -206,6 +212,10 @@ public class loginFrame extends javax.swing.JFrame {
     private void quitBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quitBActionPerformed
         this.dispose();
     }//GEN-LAST:event_quitBActionPerformed
+
+    private void passwordPfKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_passwordPfKeyPressed
+        //implement in a enter key to press login
+    }//GEN-LAST:event_passwordPfKeyPressed
 
     /**
      * @param args the command line arguments
