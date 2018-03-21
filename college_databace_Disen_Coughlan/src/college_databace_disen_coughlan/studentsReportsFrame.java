@@ -38,7 +38,7 @@ reports r1 = new reports();
         backB = new javax.swing.JButton();
         DistinctionB = new javax.swing.JButton();
         noOfStudentsB = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        modulesNumbersB = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
@@ -74,7 +74,12 @@ reports r1 = new reports();
             }
         });
 
-        jButton3.setText("jButton3");
+        modulesNumbersB.setText("amounts of modules");
+        modulesNumbersB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                modulesNumbersBActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("jButton4");
 
@@ -119,7 +124,7 @@ reports r1 = new reports();
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addComponent(jButton10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
-                            .addComponent(jButton3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(modulesNumbersB, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -145,7 +150,7 @@ reports r1 = new reports();
                     .addComponent(jButton8))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton3)
+                    .addComponent(modulesNumbersB)
                     .addComponent(jButton6)
                     .addComponent(jButton9))
                 .addGap(18, 18, 18)
@@ -184,6 +189,10 @@ reports r1 = new reports();
     private void noOfStudentsBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_noOfStudentsBActionPerformed
        r1.report2();
     }//GEN-LAST:event_noOfStudentsBActionPerformed
+
+    private void modulesNumbersBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modulesNumbersBActionPerformed
+       r1.report3();
+    }//GEN-LAST:event_modulesNumbersBActionPerformed
 
     /**
      * @param args the command line arguments
@@ -226,7 +235,6 @@ reports r1 = new reports();
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -234,6 +242,7 @@ reports r1 = new reports();
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton modulesNumbersB;
     private javax.swing.JButton noOfStudentsB;
     // End of variables declaration//GEN-END:variables
 }

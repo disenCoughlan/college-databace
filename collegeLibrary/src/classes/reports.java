@@ -94,7 +94,7 @@ public class reports {
             //Connection con = DriverManager.getConnection(host);
             PreparedStatement prest;
             //SQL
-            String sql = "";
+            String sql = "select count(module_id)from module;";
 
             prest = conn.prepareStatement(sql);
             //Results of the sql stored in the resultSet rs1
@@ -103,10 +103,10 @@ public class reports {
             while (rs1.next()){
 //                JOptionPane.showMessageDialog(null,rs1.getObject(1));
                 
-                String first_name = rs1.getString(1);
-                String value1 = ("Student Numbers  : " + first_name );
+                String module_id = rs1.getString(1);
+                String value1 = ("Modules Numbers  : " + module_id );
                 System.out.println( value1);
-                
+                JOptionPane.showMessageDialog(null,rs1.getObject(1)+" modules");
             }
         }
         catch (SQLException err) {
