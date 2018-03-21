@@ -215,6 +215,11 @@ public class loginFrame extends javax.swing.JFrame {
 
     private void passwordPfKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_passwordPfKeyPressed
         //implement in a enter key to press login
+        int keycode = evt.getKeyCode();
+if(keycode == evt.VK_ENTER){
+// code you want to carry out if enter is pressed... I have just added a test message
+        //how to do this?
+}
     }//GEN-LAST:event_passwordPfKeyPressed
 
     /**
