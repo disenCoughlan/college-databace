@@ -127,8 +127,6 @@ student s1 = new student();
 
         modulesL.setText("modules");
 
-        classGroupCb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "acsd01", "acsd02", "gdd01", "gdd02" }));
-
         assment2Tf.setVisible(false);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
