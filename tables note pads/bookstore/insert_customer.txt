@@ -1,0 +1,80 @@
+# Inserting Record 1
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0001", "Sean Davey", "12 Willow Park, Athenry, Co. Galway", "Ireland", "SeanD@Athenry.Com", 2312312131321231, "Visa", "2010-05-31" );
+
+# Inserting Record 2
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0002", "Stephen Roche", "14 Place De La Concorde, Paris", "France", "Stephen.Roche@hotmail.com", 1221323424123313, "Mastercard", "2011-02-01" );
+
+# Inserting Record 3
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0003", "David Brady", "13 Croke Park Road, Dublin 3", "Ireland", "DB@croker.ie", 3437473782734432, "Mastercard", "2010-09-01" );
+
+# Inserting Record 4
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0004", "Alex Rubbins", "12 Washington Street, San Jose, California", "USA", "Arubbins@USA.Com", 4767367678688867, "Amex", "2010-07-01" );
+
+# Inserting Record 5
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0005", "Michael Hill", "Atlantic Drive, Clifden, Co. Galway", "Ireland", "Hill@Ireland.Com", 5767876767868767, "Diners", "2010-01-01" );
+
+# Inserting Record 6
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0006", "Dwight Cole", "Sir Matt Busby Way, Coronation Street, Manchester", "United Kingdom", "ColeD@yahoo.co.Uk", 2837482364766343, "Visa", "2011-02-01" );
+
+# Inserting Record 7
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0007", "Clive Lynch", "Bothar Tailteann, Navan, Co. Meath", "Ireland", "Clynch@Ac.Com", 3476723642364432, "Visa", "2010-09-01" );
+
+# Inserting Record 8
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0008", "Sandra Gargan", "11 Downing Street, London", "United Kingdom", "No11@Gov.Uk", 2673123321312313, "Visa", "2010-03-01" );
+
+# Inserting Record 9
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0009", "Frank Skinner", "98 Wellpark Grove, Mullingar", "Ireland", "", 1765654545646546, "Mastercard", "2011-05-01" );
+
+# Inserting Record 10
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0010", "Bjorn Jansen", "Kattegat Heights, Copenhagen", "Denmark", "Bjornj@Dkmail.Dk", 4767867867867896, "Amex", "2011-03-31" );
+
+# Inserting Record 11
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0011", "Jackie Nimble", "87 Tulip Drive, Rotterdam", "Holland", "Jackie@Hotmail.Com", 2778657567576586, "Visa", "2011-09-01" );
+
+# Inserting Record 12
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0012", "Mary Dunne", "34 Terryland Road, Galway", "Ireland", "Mdunne@Dunnes.Ie", 2667567567856757, "Visa", "2010-03-01" );
+
+# Inserting Record 13
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0013", "Orla Kelly", "24 Belair Drive, Chicago", "USA", "Orlakelly@Money.Com", 1546545646546544, "Mastercard", "2011-04-30" );
+
+# Inserting Record 14
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0014", "Sharon Noone", "32 Shop Street, Ballina, Co. Mayo", "Ireland", "", 4786786767867855, "Amex", "2010-08-31" );
+
+# Inserting Record 15
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0015", "Claire Kerrigan", "23 Main Street, Nagasaki", "Japan", "Claire@Japan.Jp", 5678568769876989, "Diners", "2009-06-01" );
+
+# Inserting Record 16
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0016", "James Desmond", "10 Sea Drive, Linkoping", "Sweden", "Jd@Norhag.Com", 2565656787687786, "Visa", "2010-05-01" );
+
+# Inserting Record 17
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0017", "Vinessa Samway", "2 White Hart Lane, London", "United Kingdom", "vin@Spurs.co.uk", 1876765765675656, "Mastercard", "2011-05-31" );
+
+# Inserting Record 18
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0018", "Joseph Duffy", "NCD Bookshop, Dawson St, Dublin", "Ireland", "Joe@ncd.ie", 5877987987979090, "Diners", "2009-09-01" );
+
+# Inserting Record 19
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0019", "Ann Stephens", "19 Tuam Road, Tubbercurry, Co. Sligo", "Ireland", "Ann@Hotmail.Com", 1576576576587587, "Mastercard", "2010-09-01" );
+
+# Inserting Record 20
+INSERT INTO CUSTOMER (CUST_CODE, NAME, STREET_ADDRESS, COUNTRY, EMAIL, CC_NUMBER, CC_TYPE, CC_EXPIRYDATE)
+Values ( "C0020", "Tomas Pickle", "27 Walter Macken Rd, Pittsburgh", "USA", "TommyP@Hotmail.Com", 2789678687676868, "Visa", "2010-05-01" );
+

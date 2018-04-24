@@ -82,6 +82,11 @@ reports r1 = new reports();
         });
 
         jButton4.setText("jButton4");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.setText("jButton5");
 
@@ -193,6 +198,10 @@ reports r1 = new reports();
     private void modulesNumbersBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modulesNumbersBActionPerformed
        r1.report3();
     }//GEN-LAST:event_modulesNumbersBActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        r1.report4();
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments

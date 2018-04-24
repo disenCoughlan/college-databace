@@ -1,0 +1,47 @@
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("admin1","Ailill","Ó hEaghra","L'_<3a.&b*PmN-/M");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("admin2","Calbhach","Ó Cearmada","Z/(?s6v$C3fB8:F>");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec001","Damhnait","MacGuinness","ZJkeUpntaN'Q8]4q");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec002","Ciannait","Duffy","Xjc]('<F84=Kn~Q£");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec003","Kennedy","Dermott","A.3]DMVcu8f%BT)#");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec004","Eadan","Cullen","Z:Gh43c-HW~MLn/F");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec005","Tuathal","McCabe","j'Jp#UK62$LsCQ/!");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec006","Léan","McGuinness","Va.mf&cUPM3Sy!Cg");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec007","Nainsí","McFarlane","M6CJQX=.+7x,^)ka");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec008","Tiarnach","Malloye","z)#35EfVuw=;b^+$");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec009","Gobnet","Guinness","y)-6%n,~'>Dh.q2C");
+
+insert into teachers (teacher_id,first_name,last_name,login)
+
+values ("tec010","Gilroy","O'Gorman","EbM#u4yV:.25Gk7P");

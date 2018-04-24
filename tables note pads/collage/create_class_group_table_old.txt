@@ -1,0 +1,16 @@
+create table Class_Group
+(
+		
+class_group_id			varchar(8),
+        
+student_id			varchar(6),
+        
+course_id			varchar(10),
+        
+primary key			(class_group_id),
+        
+foreign key			(student_id)references Students(student_id),
+        
+foreign key			(course_id)references Course(course_id)
+
+);

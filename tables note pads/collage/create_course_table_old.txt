@@ -1,0 +1,14 @@
+create table Course
+(
+		
+course_id		varchar(10),
+        
+course_name		varchar(40) not null,
+        
+course_levle 		int(2) not null,
+        
+course_description	varchar(50) not null,
+        
+primary key		(course_id)
+
+);

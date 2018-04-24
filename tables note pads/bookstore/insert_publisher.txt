@@ -1,0 +1,23 @@
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("AP", "Academic Press", "San Diego,California, USA", "+1 111 2222-3333", "+1 111 2222-3334", "http://www.elsevierdirect.com");
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("AW", "Addison-Wesley", "Reading, Massachussets, USA", "+1 303 1234-5566", "+1 303 1234-5567", NULL);
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("BL", "Blackwell", "Oxford, UK", "+44 91 76817826", "+44 91 76817844", "http://www.blackwell.com/");
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("CUP", "Cambridge University Press", "Cambridge, UK", "+44 66 97285663", NULL, NULL);
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("JW", "John Wiley & Sons", "Chichester, UK", "+44 92 90178231", NULL, NULL);
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("MGH", "McGraw-Hill", "London, UK", "+44 71 91827131", "+44 71 91827144", "http://www.mcgrawhill.co.uk");
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("MIT", "MIT Press", "Cambridge, Massachussets, USA", "+1 289 1781921", NULL, NULL);
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("MM", "Macmillan", "London, UK", "+44 93 89102891", NULL, NULL);
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("ORA", "O'Reilly & Associates", "Sebastopol, California, USA", "+1 (707) 827-7000", NULL, "http://oreilly.com/");
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("OUP", "Oxford University Press", "Oxford, UK", "+44 891771723", NULL, "http://www.oup.co.uk");
+
+INSERT INTO PUBLISHER(PUBL_CODE, NAME, ADDRESS, TELEPHONE, FAX, WWW) VALUES ("PH", "Prentice Hall", "Upper Saddle River, New Jersey, USA", "+1 781 918291021", "+1 781 918291022", "http://www.prenticehall.com/");
+
+

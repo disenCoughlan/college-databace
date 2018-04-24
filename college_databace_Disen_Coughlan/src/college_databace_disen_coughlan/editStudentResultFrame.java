@@ -59,6 +59,11 @@ student s1 = new student();
         assment2Tf = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowActivated(java.awt.event.WindowEvent evt) {
+                formWindowActivated(evt);
+            }
+        });
 
         jPanel1.setBackground(new java.awt.Color(80, 200, 120));
 
@@ -396,6 +401,33 @@ student s1 = new student();
             System.out.println(err.getMessage());
         }
     }//GEN-LAST:event_saveAndAddBActionPerformed
+
+    private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
+                 try{
+String url = "jdbc:mysql://127.0.0.1:3306/";
+String dbName = "college";
+          String driver = "com.mysql.jdbc.Driver";
+          String userName = "root";
+          String password = "987456321Dc";
+  //Class.forName(driver).newInstance();
+          Connection conn = DriverManager.getConnection(url+dbName,userName,password);
+//Connection con = DriverManager.getConnection(host);
+ PreparedStatement prest;
+//SQL
+String sql = "select distinct class_group.class_group_id from class_group;";
+prest = conn.prepareStatement(sql);
+       //Results of the sql stored in the resultSet rs1
+        ResultSet rs1 = prest.executeQuery();
+//This will loop and show all the results from the sql query
+while (rs1.next()){
+    
+        classGroupCb.addItem(rs1.getObject(1)+"");
+            }
+}
+catch (SQLException err) {
+  System.out.println(err.getMessage());
+}
+    }//GEN-LAST:event_formWindowActivated
 
     /**
      * @param args the command line arguments

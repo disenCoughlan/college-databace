@@ -1,0 +1,71 @@
+insert into module_course (module_id,course_id)
+
+values ("6N4090","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N2108","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N1449","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N0736","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N2191","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N1946","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N3395","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N4785","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("6N0734","6M0691");
+
+insert into module_course (module_id,course_id)
+
+values ("5N1299","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N1300","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N0784","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N1603","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N1651","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N1605","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N0541","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N0690","5M2146");
+
+insert into module_course (module_id,course_id)
+
+values ("5N1356","5M2146");

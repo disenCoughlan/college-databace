@@ -1,0 +1,14 @@
+create table Module_Course
+(
+		
+module_id			varchar(10),
+        
+course_id			varchar(10),
+        
+primary key 			(module_id,course_id),
+        
+foreign key			(module_id)references Module(module_id),
+        
+foreign key			(course_id)references Course(course_id)
+
+);

@@ -1,0 +1,15 @@
+insert into class_group (class_group_id,course_id)
+
+values ("acsd01","6M0691");
+
+insert into class_group (class_group_id,course_id)
+
+values ("acsd02","6M0691");
+
+insert into class_group (class_group_id,course_id)
+
+values ("gdd01","5M2146");
+
+insert into class_group (class_group_id,course_id)
+
+values ("gdd02","5M2146");

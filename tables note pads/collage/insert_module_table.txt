@@ -1,0 +1,70 @@
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N4090","Project Management","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N2108","Object Oriented Programming","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N1449","Software Architecture","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N0736","Graphical User Interface Programming","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N2191","Leadership","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N1946","Work Experience","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N3395","Mathematics","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N4785","Relational Database","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("6N0734","Mobile Technologies","null",15,4);
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N1299","Multimedia Authoring","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N1300","Multimedia Project Development","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N0784","Design Skills","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N1603","Computer 3D Modelling and Animation","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N1651","Games Analysis Design","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N1605","Digital Movie Processing","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N0541","Fundamentals of Object Oriented Programming","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N0690","Communications","null",15,4);
+
+insert into Module (module_id,module_name,module_descripter,module_credits,number_of_assments)
+
+values ("5N1356","Work Experience","null",15,4);

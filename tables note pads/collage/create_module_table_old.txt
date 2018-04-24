@@ -1,0 +1,16 @@
+create table Module
+(
+		
+module_id			varchar(10),
+        
+module_name			varchar(40) not null,
+        
+module_descripter		varchar(50) not null,
+        
+module_credits			int(2) not null,
+        
+number_of_assments 		int(2) not null,
+        
+primary key			(module_id)
+
+);

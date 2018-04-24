@@ -1,0 +1,120 @@
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0001","Disen","Mac Cochláin","1a Crestwood","Coolough Galway","County Galway","Ireland","77454952142392935464","DMacCochláin@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0002","Comgal","Sheenan","IiBC, GMIT","Castlebar","County Mayo","Ireland","40189161329803764157","CSheenan@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0003","Ionatán","Malley","3 Eyre st Woodquay","Galway","County Galway","Ireland","73459894242421729060","IMalley@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0004","Aran","Neville","Claureen Lahinch rd","Ennis","County Clare","Ireland","70688162890918959540","ANeville@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0005","Flaithrí","Tighe","Graigue Killeigh","Tullamore","County Offaly","Ireland","22388019501471515182","FTighe@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0006","Shevaun","MacConnell","Tullyallen","Drogheda","County Louth","Ireland","97812163089573014109","SMacConnell@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0007","Odharnait","Corcoran","Knockmonalea","East Youghal","County Cork","Ireland","84315245904683961989","OCorcran@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0008","Críostóir","McNeil","Newry rd","Dundalk","County Louth","Ireland","07474908554163196979","CMcNeil@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0009","Muirgel","Mulloy","Albert qy","Cork","County Cork","Ireland","67759200757912143209","MMulloy@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0010","Máire","Duane","30 Slaney st","Enniscorthy","County Wexford","Ireland","10324054517738351039","MDuane@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0011","Deasún","Ó Doirnáin","43-45 Church St.","Portadown","County Armagh","Ireland","29839628861170439502","DÓDoirnáin@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0012","Aodhán","MacGinnis","Sandy rd","Galway","County Galway","Ireland","28480154625280936359","AMacGinnis@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0013","Iúile","Ó Dubhghaill","Garrinch","Fethard","County Tipperary","Ireland","08965124368495608667","IDubhghaill@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0014","Lorcán","Morris","3 Mutton lane off Patrick st","Cork","County Cork","Ireland","99633644544255015350","LMorris@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0015","Brogan","Rafferty","Main st","Lahinch","County Clare","Ireland","23795635555894827876","BRafferty@ramdom.zorp","acsd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0016","Pádraigín","Mac Reachtain","Ben View, Cleverash Rd.","Sligo","County Sligo","Ireland","96772367020187903946","PMacReachtain@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0017","Tomás","Callahan","Kyleogue","Inistioge","County Kilkenny","Ireland","78243903740606555569","TCallahan@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0018","Mave","Devlin","Cluain Ard Dernagrew","Monaghan","County Monaghan","Ireland","22095851262074333318","MDevlin@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0019","Dervla","Rinne","6 Church st","Dundalk","County Louth","Ireland","05504563854010041063","DRinne@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0020","Meave","Mac Niall","Knockmonalea","East Youghal","County Cork","Ireland","04723649963191709963","MMacNiall@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0021","Alastar","Beirne","3 Eyre st Woodquay","Galway","County Galway","Ireland","79960230081507668475","ABeirne@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0022","Nioclás","O'Hannagain","Main st","Lahinch","County Clare","Ireland","32338923687282562852","NO'Hannagain@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0023","Tadhg","McNiven","105 Main st","Cashel","County Tipperary","Ireland","59877840940417811152","TMcNiven@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0024","Monat","Nolan","38 Bridge st","Cavan","County Cavan","Ireland","48562054536741459273","MNolan@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0025","Sinéad","Carroll","Main st","Belturbet","County Cavan","Ireland","72201213478077646460","SCarroll@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0026","Gearóid","Ó hUiginn","Ballindereen","Kilcolgan","County Galway","Ireland","04348843828425552694","GÓhUiginn@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0027","Dónal","Brady","Kilduff","Pallas grean","County Limerick","Ireland","20693260222123559941","DBrady@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0028","Ryan","McNab","3rd Floor 2 Georges Qy","Cork","County Cork","Ireland","54963015573573838419","RMcNab@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0029","Cormac","Neil","Oldtown","Cavan","County Cavan","Ireland","85133782350502517157","CNeil@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0030","Mairenn","Devine","Bridge st","Galway","County Galway","Ireland","27451794701956986298","MDevine@ramdom.zorp","acsd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0031","Finbar","Rinne","Northgate st","Athenry","County Galway","Ireland","58097293919330593009","FRinne@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0032","Éibhear","MacRae","Kincon Upper","Killala","County Mayo","Ireland","46077775004816515654","ÉMacRae@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0033","Fiachna","Uí Deoráin","Curraghboy","Athlone","County Westmeath","Ireland","79453640692007764134","FUíDeoráin@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0034","Keegan","Niven","12 Main St.","Ballybay","County Monaghan","Ireland","32290354605034268937","KNiven@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0035","Rearden","O'Neal","Bridge st","Galway","County Galway","Ireland","21955407532728706972","RO'Neal@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0036","Bébhionn","Nevin","47 Kenyon st","Nenagh","County Tipperary","Ireland","58142519004602805518","BNevin@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0037","Erskine","Ó Dubhthaigh","Main st","Quin","County Clare","Ireland","83089542033956412323","EÓDubhthaigh@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0038","Aodhán","Kelley","Main st","Lanesborough","County Longford","Ireland","61388551464162933704","AKelley@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0039","Nora","Molloy","Lr Strand","Kanturk","County Cork","Ireland","53958758353417445800","NMolloy@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0040","Ceallach","Rafferty","Market st","Clifden","County Galway","Ireland","08547247890740190028","CRafferty@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0041","Grania","Moffett","PCG House Church Road","Killiney","County Dublin","Ireland","80281966754711050017","GMoffett@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0042","Léan","Ó Coileáin","1 Upper Strand st","Tralee","County Kerry","Ireland","23095222106580836484","LÓCoileáin@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0043","Muirgen","Ó Gormáin","Main St., Bennettsbridge","Kilkenny","County Leitrim","Ireland","17203479681065084029","MÓGormáin@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0044","Ethna","Reilly","Tierquin","Cavan","County Cavan","Ireland","04713848296979430335","EReilly@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0045","Turlough","Mcsheehy","44 Main st","Carrickmacross","County Monaghan","Ireland","21884234398874628120","TMcsheehy@ramdom.zorp","gdd01");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0046","Úna","Mhic Brádaigh","Timahoe Coill Dubh","Naas","County Kildare","Ireland","91763273098867045859","ÚMhicBrádaigh@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0047","Kelan","O'Callaghan","Ballykelly","New Ross","County Wexford","Ireland","79955515028854212999","KO'Callaghan@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0048","Brigid","Nic Cochláin","4 Cherryhill, Groyne","Killorglin","County Kerry","Ireland","50237085458006662828","BNicCochláin@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0049","Murtagh","Coughlan","Main st","Castledermot","County Kildare","Ireland","48464176500159812697","MCoughlan@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0050","Ronit","O'Niall","22 Ashgrove Manor","Portadown","County Armagh","Ireland","43848638878260545595","RO'Niall@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0051","Tadhg","Ó Dubhshláin","4 Main Street","Belturbet","County Cavan","Ireland","89623832989669084871","TÓDubhshláin@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0052","Léan","Ó Cinnéidigh","Northgate st","Athlone","County Westmeath","Ireland","18544429056686868235","LÓCinnéidigh@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0053","Keelin","Markey","Ballough Hse","Lusk","County Dublin","Ireland","80022764723222055687","KMarkey@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0054","Norene","Ó Riain","Knockmanagh","Killarney","County Kerry","Ireland","09081761962312711142","NÓRiain@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0055","Bearach","McAfee","37 The Village Eastham rd","Bettystown","County Meath","Ireland","39120463570868844644","BMcAfee@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0056","Conan","Burns","Kilkishen","Ennis","County Clare","Ireland","95084064996246793517","CBurns@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0057","Aran","Ó Cathasaigh","Northern Ext. Ind Est","Waterford","County Waterford","Ireland","47831866010068113531","AÓCathasaigh@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0058","Cathair","Hayden","19 Upr Denmark st","Limerick","County Limerick","Ireland","80482057218452249904","CHayden@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0059","Eilís","Cavanagh","Rinn","Oranmore","County Galway","Ireland","98768346739388087475","ECavanagh@ramdom.zorp","gdd02");
+insert into students (student_id,first_name,last_name,address_line1,address_line2,county,country,mobile,email,class_group_id)
+values ("st0060","Donnchadh","McCrory","Mt. Nebo Hollyfort","Gorey","County Wexford","Ireland","45861697939125263990","DMcCrory@ramdom.zorp","gdd02");

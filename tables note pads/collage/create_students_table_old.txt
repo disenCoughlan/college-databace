@@ -1,0 +1,22 @@
+create table Students
+(
+		
+student_id		varchar(6),
+        
+first_name		varchar(20) not null,
+        
+last_name		varchar(20) not null,
+        
+address_line1 		varchar(50),
+        
+address_line2		varchar(50),
+        
+county			varchar(50),
+        
+country			varchar(50),
+        
+mobile			bigint (20) unique,
+        
+email			varchar(50) unique,
+
+PRIMARY KEY		(student_id));

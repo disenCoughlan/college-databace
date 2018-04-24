@@ -1,0 +1,14 @@
+CREATE TABLE BOOK (
+            ISBN                 VARCHAR(13),
+            TITLE                VARCHAR(150) NOT NULL,
+            AUTHOR               VARCHAR(80) NOT NULL,
+            YEAR                 INT(4),
+        BINDING              VARCHAR(14),
+        RRP                  DECIMAL(6,2)  NOT NULL,
+        QTY_ON_HAND          INT(4),
+        MIN_STOCK_LEVEL          INT(2),
+     PUBL_CODE            VARCHAR(3) NOT NULL,
+        CATEGORY             VARCHAR(4) NOT NULL,
+        PRIMARY KEY (ISBN),
+     FOREIGN KEY (CATEGORY) REFERENCES CATEGORY(CATEGORY),
+     FOREIGN KEY (PUBL_CODE) REFERENCES PUBLISHER(PUBL_CODE) );

@@ -1,0 +1,187 @@
+st0001/
+st0002/
+....../
+st0059/
+st0060/
+
+acsd01/
+acsd02/
+gdd01/
+gdd02/
+
+address line 1 x60
+address line 2 x60
+county x60
+Ireland x60/
+
+77454952142392935464/
+40189161329803764157/
+73459894242421729060/
+70688162890918959540/
+22388019501471515182/
+97812163089573014109/
+84315245904683961989/
+07474908554163196979/
+67759200757912143209/
+10324054517738351039/
+29839628861170439502/
+28480154625280936359/
+08965124368495608667/
+99633644544255015350/
+23795635555894827876/
+96772367020187903946/
+78243903740606555569/
+22095851262074333318/
+05504563854010041063/
+04723649963191709963/
+79960230081507668475/
+32338923687282562852/
+59877840940417811152/
+48562054536741459273/
+72201213478077646460/
+04348843828425552694/
+20693260222123559941/
+54963015573573838419/
+85133782350502517157/
+27451794701956986298/
+58097293919330593009/
+46077775004816515654/
+79453640692007764134/
+32290354605034268937/
+21955407532728706972/
+58142519004602805518/
+83089542033956412323/
+61388551464162933704/
+53958758353417445800/
+08547247890740190028/
+80281966754711050017/
+23095222106580836484/
+17203479681065084029/
+04713848296979430335/
+21884234398874628120/
+91763273098867045859/
+79955515028854212999/
+50237085458006662828/
+48464176500159812697/
+43848638878260545595/
+89623832989669084871/
+18544429056686868235/
+80022764723222055687/
+09081761962312711142/
+39120463570868844644/
+95084064996246793517/
+47831866010068113531/
+80482057218452249904/
+98768346739388087475/
+45861697939125263990/
+
+Students/
+Disen Mac Cochláin/
+Comgal Sheenan/
+Ionatán Malley/
+Aran Neville/
+Flaithrí Tighe/
+Shevaun MacConnell/
+Odharnait Corcoran/
+Críostóir McNeil/
+Muirgel Mulloy/
+Máire Duane/
+
+Deasún Ó Doirnáin/
+Aodhán MacGinnis/
+Iúile Ó Dubhghaill/
+Lorcán Morris/
+Brogan Rafferty/
+Pádraigín Mac Reachtain/
+Tomás Callahan/
+Mave Devlin/
+Dervla Rinne/
+Meave Mac Niall/
+
+Alastar Beirne/
+Nioclás O'Hannagain/
+Tadhg McNiven/
+Monat Nolan/
+Sinéad Carroll/
+Gearóid Ó hUiginn/
+Dónal Brady/
+Ryan McNab/
+Cormac Neil/
+Mairenn Devine/
+
+Finbar Rinne/
+Éibhear MacRae/
+Fiachna Uí Deoráin/
+Keegan Niven/
+Rearden O'Neal/
+Bébhionn Nevin/
+Erskine Ó Dubhthaigh/
+Aodhán Kelley/
+Nora Molloy/
+Ceallach Rafferty/
+
+Grania Moffett/
+Léan Ó Coileáin/
+Muirgen Ó Gormáin/
+Ethna Reilly/
+Turlough Mcsheehy/
+Úna Mhic Brádaigh/
+Kelan O'Callaghan/
+Brigid Nic Cochláin/
+Murtagh Coughlan/
+Ronit O'Niall/
+
+Tadhg Ó Dubhshláin/
+Léan Ó Cinnéidigh/
+Keelin Markey/
+Norene Ó Riain/
+Bearach McAfee/
+Conan Burns/
+Aran Ó Cathasaigh/
+Cathair Hayden/
+Eilís Cavanagh/
+Donnchadh McCrory/
+
+teachers
+admin1/
+admin2/
+tec001/
+....../
+tec010/
+
+L'_<3a.&b*PmN-/M/
+Z/(?s6v$C3fB8:F>/
+ZJkeUpntaN'Q8]4q/
+Xjc]('<F84=Kn~Q£/
+A.3]DMVcu8f%BT)#/
+Z:Gh43c-HW~MLn/F/
+j'Jp#UK62$LsCQ/!/
+Va.mf&cUPM3Sy!Cg/
+M6CJQX=.+7x,^)ka/
+z)#35EfVuw=;b^+$/
+y)-6%n,~'>Dh.q2C/
+EbM#u4yV:.25Gk7P/
+
+Ailill Ó hEaghra/
+Calbhach Ó Cearmada/
+Damhnait MacGuinness/
+Ciannait Duffy/
+Kennedy Dermott/
+Eadan Cullen/
+Tuathal McCabe/
+Léan McGuinness/
+Nainsí McFarlane/
+Tiarnach Malloye/
+Gobnet Guinness/
+Gilroy O'Gorman/
+
+st0061
+Dave
+Ó Mally
+The Road
+Galway
+County Galway
+Ireland
+0008585850
+DÓMally@ramdom.zorp
+gdd02

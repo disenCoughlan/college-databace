@@ -1,0 +1,6 @@
+insert into Course (course_id,course_name,course_levle,course_description)
+
+values ("6M0691","Advanced Certificate in Software Development",6,"Enable students to develop their pre-existing IT and Software Development skills to an excellent standard");
+insert into Course (course_id,course_name,course_levle,course_description)
+
+values ("5M2146","Games Development and Design",5,"This course provides learners with the technical and organisational skills required to work in the Digital Games Industry.");

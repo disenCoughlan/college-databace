@@ -1,0 +1,26 @@
+create table Students_Results
+(
+
+student_id			varchar(6),
+
+class_group_id			varchar(8),
+
+module_id			varchar(10),
+
+assment_1			int(3)not null,
+
+assment_2			int(3)not null,
+
+exam				int(3)not null,
+
+grade				varchar(11)not null,
+
+primary key			(student_id,class_group_id,module_id),
+
+foreign key			(student_id)references Students(student_id),
+
+foreign key			(class_group_id)references Class_Group(class_group_id),
+
+foreign key			(module_id)references Module(module_id)
+
+);

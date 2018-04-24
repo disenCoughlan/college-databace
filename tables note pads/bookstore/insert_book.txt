@@ -1,0 +1,227 @@
+INSERT INTO BOOK VALUES ("2680279867676", "Structured programming", "E. W. Dijkstra, C. A. R. Hoare and O.-J. Dahl", 1972, "Hardback", 49.00, 0, 1, "AP", "SOFT");
+
+INSERT INTO BOOK VALUES ("4400375981802", "Principles of Program Design", "M. J. Jackson", 1975, "Softback", 42.99, 1, 0, "AP", "SOFT");
+
+INSERT INTO BOOK VALUES ("9165829298532", "Statistical Methods for Social Scientists", "E. A. Hanushek and J. E. Jackson", 1977, "Softback", 45.00, 3, 0, "AP", "STAT");
+
+INSERT INTO BOOK VALUES ("6558119951716", "The Professional Stranger", "M. H. Agar", 1980, "Hardback", 33.00, 1, 1, "AP", "RM");
+
+INSERT INTO BOOK VALUES ("8679980682015", "Applied Sampling", "S. Sudman", 1983, "Hardback", 31.99, 2, 1, "AP", "RM");
+
+INSERT INTO BOOK VALUES ("6723392961826", "Response Effects", "N. M. Bradburn", 1986, "Hardback", 36.99, 2, 1, "AP", "RM");
+
+INSERT INTO BOOK VALUES ("1575363462834", "Towards a Sociology of Human-Computer Interaction: A Software Engineer's Perspective", "H. Robinson", 1990, "Hardback", 20.99, 3, 0, "AP", "HCI");
+
+INSERT INTO BOOK VALUES ("4583810568413", "Hypertext and hypermedia", "J. Nielsen", 1990, "Softback", 49.00, 0, 2, "AP", "WEB");
+
+INSERT INTO BOOK VALUES ("4142608781201", "Multimedia and Hypertext: The Internet and Beyond", "J. Nielsen", 1995, "Softback", 26.00, 2, 1, "AP", "WEB");
+
+INSERT INTO BOOK VALUES ("2875285952961", "Analysis and evaluation of multimedia systems", "W. M. Newman", 1995, "Hardback", 10.99, 1, 0, "AP", "WEB");
+
+INSERT INTO BOOK VALUES ("6618740364817", "The essential elements of hypermedia", "M. A. Harrison", 1995, "Softback", 20.99, 3, 2, "AP", "WEB");
+
+INSERT INTO BOOK VALUES ("8666297349174", "Information Tasks: Toward a User-Centered Approach to Information Systems", "B. L. Allen", 1996, "Softback", 20.99, 1, 0, "AP", "HCI");
+
+INSERT INTO BOOK VALUES ("4361790348549", "Grounding grounded theory: guidelines for qualitative inquiry", "I. Dey", 1999, "Hardback", 48.00, 1, 0, "AP", "RM");
+
+INSERT INTO BOOK VALUES ("9151450639344", "Systematic Observational Methods", "K. E. Weick", 1968, "Softback", 26.99, 1, 2, "AW", "RM");
+
+INSERT INTO BOOK VALUES ("7680257280872", "The mythical man-month: essays on software engineering", "F. P. Brooks", 1975, "Hardback", 38.99, 1, 1, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("6932654758582", "Software engineering", "I. Sommerville", 1982, "Softback", 36.99, 1, 0, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("4434284418239", "Understanding Computers and Cognition: A New Foundation for Design", "T. Winograd and F. F. Flores", 1986, "Softback", 17.00, 1, 0, "AW", "HCI");
+
+INSERT INTO BOOK VALUES ("7043858061248", "Principles of software engineering management", "T. Gilb", 1988, "Softback", 33.99, 2, 1, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("7163549008505", "Managing the software process", "W. S. Humphrey", 1989, "Hardback", 29.00, 2, 0, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("6377254249924", "CASE*METHOD: Tasks and Deliverables", "R. Barker", 1989, "Softback", 36.00, 0, 2, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("9542647946889", "Designing the User Interface: Strategies for Effective Human-Computer Interaction", "B. Shneiderman", 1992, "Softback", 30.00, 1, 0, "AW", "HCI");
+
+INSERT INTO BOOK VALUES ("7105106115470", "Software engineering", "I. Sommerville", 1992, "Softback", 39.00, 0, 2, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("9559597020052", "Human-Computer Interaction", "J. Preece, Y. Rogers, H. Sharp, D. Benyon, S. Holland and T. Carey", 1994, "Softback", 32.00, 3, 2, "AW", "HCI");
+
+INSERT INTO BOOK VALUES ("3850514231566", "Tog on Software Design", "B. Tognazzini", 1995, "Hardback", 34.99, 1, 0, "AW", "HCI");
+
+INSERT INTO BOOK VALUES ("9436892545830", "Interactive system design", "W. M. Newman and M. G. Lamming", 1995, "Hardback", 39.00, 0, 1, "AW", "HCI");
+
+INSERT INTO BOOK VALUES ("4609693273062", "A Discipline for Software Engineering", "W. S. Humphrey", 1995, "Hardback", 43.99, 0, 2, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("9431236143888", "The Web Architect's Handbook", "C. Stross", 1996, "Hardback", 41.99, 0, 1, "AW", "WEB");
+
+INSERT INTO BOOK VALUES ("9566342611013", "Managing multimedia", "E. England and A. Finney", 1996, "Softback", 11.00, 2, 0, "AW", "WEB");
+
+INSERT INTO BOOK VALUES ("5544338159747", "UML Distilled: Applying the Standard Object Modeling Language", "M. Fowler and K. Scott", 1997, "Softback", 12.99, 3, 1, "AW", "SAND");
+
+INSERT INTO BOOK VALUES ("6482491871081", "Object Oriented Analysis and Design with Applications", "G. Booch, R. C. Martin and J. Newkirk", 1998, "Hardback", 33.00, 2, 2, "AW", "SAND");
+
+INSERT INTO BOOK VALUES ("4647278091554", "Software for Use / A Practical Guide to the Models and Methods of Usage-Centered Design", "L. Constantine and L. Lockwood", 1999, "Hardback", 30.00, 1, 2, "AW", "HCI");
+
+INSERT INTO BOOK VALUES ("9614521248416", "The Unified Software Development Process", "I. Jacobson, G. Booch and J. Rumbaugh", 1999, "Softback", 32.99, 3, 0, "AW", "SAND");
+
+INSERT INTO BOOK VALUES ("5800892420027", "Modern Systems Analysis and Design", "J. A. Hoffer, J. F. George and J. S. Valacich", 1999, "Hardback", 23.99, 0, 0, "AW", "SAND");
+
+INSERT INTO BOOK VALUES ("3001297470610", "The Computer in the Visual Arts", "A. M. Spalter", 1999, "Softback", 32.99, 1, 1, "AW", "WEB");
+
+INSERT INTO BOOK VALUES ("8302550478159", "Collaborative Web Development: Strategies and Best Practices for Web Teams", "J. R. Burdman", 1999, "Softback", 24.00, 3, 2, "AW", "WEB");
+
+INSERT INTO BOOK VALUES ("5931130690684", "Software Craftsmanship: The New Imperative", "P. McBreen", 2002, "Hardback", 20.00, 1, 0, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("1991688633934", "Building Web Applications with UML", "J. Conallen", 2002, "Softback", 47.99, 1, 1, "AW", "WEB");
+
+INSERT INTO BOOK VALUES ("7466963314242", "The Pragmatic Programmer", "A. Hunt and D. Thomas", 1999, "Softback", 28.99, 1, 0, "AW", "SOFT");
+
+INSERT INTO BOOK VALUES ("4169930275472", "Being and Time", "M. Heidegger", 1962, "Softback", 43.99, 3, 0, "BL", "PHIL");
+
+INSERT INTO BOOK VALUES ("9837002140177", "Philosophical Investigations", "L. Wittgenstein", 1967, "Softback", 12.99, 3, 0, "BL", "PHIL");
+
+INSERT INTO BOOK VALUES ("5437710790081", "Information Systems Definition: The Multiview Approach", "A. T. Wood-Harper, L. Antill and D. E. Avison", 1985, "Hardback", 32.99, 2, 2, "BL", "IS");
+
+INSERT INTO BOOK VALUES ("1308623631314", "Information Systems Development: Methodologies, Techniques and Tools", "D. Avison and G. Fitzgerald", 1988, "Softback", 9.99, 3, 0, "BL", "IS");
+
+INSERT INTO BOOK VALUES ("9118526858259", "Information systems development: methodologies, techniques and tools", "D. E. Avison and G. Fitzgerald", 1988, "Softback", 25.99, 1, 0, "BL", "IS");
+
+INSERT INTO BOOK VALUES ("8976819112229", "The Evaluation of Structural Equation Models and Hypothesis Testing", "R. P. Bagozzi and H. Baumgartner", 1994, "Softback", 16.99, 0, 0, "BL", "STAT");
+
+INSERT INTO BOOK VALUES ("5460771140108", "Philosophical Works", "R. Descartes", 1911, "Hardback", 23.99, 3, 2, "CUP", "PHIL");
+
+INSERT INTO BOOK VALUES ("8224770253000", "The Nature of a Paradigm", "M. Masterman", 1970, "Softback", 15.99, 2, 0, "CUP", "PHIL");
+
+INSERT INTO BOOK VALUES ("7067113498722", "Plans and Situated Actions: The Problem of Human-Machine Communication", "L. A. Suchman", 1987, "Hardback", 48.00, 0, 2, "CUP", "IS");
+
+INSERT INTO BOOK VALUES ("2274477141884", "Qualitative Analysis for Social Scientists", "A. Strauss", 1987, "Softback", 22.99, 3, 1, "CUP", "RM");
+
+INSERT INTO BOOK VALUES ("1396885146799", "Conversation Analysis", "D. Schiffrin", 1989, "Softback", 12.00, 2, 2, "CUP", "RM");
+
+INSERT INTO BOOK VALUES ("8595112763909", "Mail and Telephone Surveys: Total Design Method", "D. A. Dillman", 1978, "Softback", 25.99, 1, 2, "JW", "RM");
+
+INSERT INTO BOOK VALUES ("3019307531123", "Human Factors: Understanding People-System Relationships", "B. H. Kantowitz and R. D. Sorkin", 1983, "Hardback", 19.00, 3, 1, "JW", "HCI");
+
+INSERT INTO BOOK VALUES ("9000228611766", "An Introduction to the Philosophy of Knowledge", "J. Trusted", 1981, "Softback", 10.00, 0, 1, "MM", "PHIL");
+
+INSERT INTO BOOK VALUES ("1601979425597", "Understanding information: An introduction", "J. Liebenau and J. Backhouse", 1990, "Hardback", 45.00, 2, 1, "MM", "IS");
+
+INSERT INTO BOOK VALUES ("8896347749606", "Rapid application development", "J. Martin", 1991, "Softback", 42.99, 2, 2, "MM", "SOFT");
+
+INSERT INTO BOOK VALUES ("6569300262360", "Program design using JSP: a practical introduction.", "M. J. King and J. P. Pardoe", 1992, "Softback", 9.99, 1, 1, "MM", "SOFT");
+
+INSERT INTO BOOK VALUES ("6605312882028", "Code Complete: A Practical Handbook of Software Construction", "S. McConnell", 1993, "Hardback", 17.99, 3, 2, "MM", "SOFT");
+
+INSERT INTO BOOK VALUES ("6373232632063", "Effective Systems Design and Requirements Analysis: The ETHICS Method", "E. Mumford", 1995, "Hardback", 20.99, 0, 1, "MM", "SAND");
+
+INSERT INTO BOOK VALUES ("9809507252519", "Paradigm shift: the new promise of information technology", "D. Tapscott", 1993, "Softback", 34.99, 1, 1, "MGH", "IS");
+
+INSERT INTO BOOK VALUES ("8480875655230", "Understanding and Evaluating Methodologies, NIMSAD: A Systemic Framework", "N. Jayaratna", 1994, "Softback", 44.00, 3, 2, "MGH", "IS");
+
+INSERT INTO BOOK VALUES ("7339294409684", "Psychometric Theory", "J. C. Nunnally and I. H. Bernstein", 1994, "Softback", 45.99, 2, 0, "MGH", "RM");
+
+INSERT INTO BOOK VALUES ("1189561642361", "Information Systems Development: Methodologies, Techniques and Tools", "D. Avison and G. Fitzgerald", 1995, "Hardback", 9.99, 1, 2, "MGH", "IS");
+
+INSERT INTO BOOK VALUES ("1910251582004", "System Requirements Engineering", "P. Loucopoulos and V. Karakostas", 1995, "Softback", 23.00, 1, 1, "MGH", "SOFT");
+
+INSERT INTO BOOK VALUES ("5603265415249", "Software Engineering: A Practitioner's Approach", "R. S. Pressman", 1996, "Softback", 50.00, 3, 0, "MGH", "SOFT");
+
+INSERT INTO BOOK VALUES ("3017718733357", "Multimedia: Making it Work", "T. Vaughan", 1996, "Hardback", 11.00, 1, 0, "MGH", "WEB");
+
+INSERT INTO BOOK VALUES ("4231948257179", "Principles of Interactive Multimedia", "M. Elsom-Cook", 2001, "Hardback", 23.00, 0, 2, "MGH", "WEB");
+
+INSERT INTO BOOK VALUES ("9188695244786", "Information Systems Development: Methods in Action", "B. Fitzgerald, N. L. Russo and E. Stolterman", 2002, "Softback", 10.99, 2, 0, "MGH", "IS");
+
+INSERT INTO BOOK VALUES ("4739472017139", "Information Systems Development: Methodologies, Techniques and Tools", "D. Avison and G. Fitzgerald", 2003, "Softback", 10.99, 2, 1, "MGH", "IS");
+
+INSERT INTO BOOK VALUES ("2116947434122", "The Critical Theory of Jurgen Habermas", "T. McCarthy", 1982, "Hardback", 30.99, 1, 1, "MIT", "PHIL");
+
+INSERT INTO BOOK VALUES ("3382679723929", "The Postmodern Condition", "J.-F. Lyotard", 1987, "Softback", 38.00, 3, 1, "MIT", "PHIL");
+
+INSERT INTO BOOK VALUES ("2269856604955", "Reflections on authoring, editing, and managing hypertext", "B. Shneiderman", 1989, "Softback", 21.99, 0, 0, "MIT", "WEB");
+
+INSERT INTO BOOK VALUES ("5263729378065", "Designing Information Technology in the Postmodern Age: From Method to Metaphor", "R. Coyne", 1995, "Softback", 25.99, 3, 2, "MIT", "HCI");
+
+INSERT INTO BOOK VALUES ("8581496415063", "The Invisible Computer: Why Good Products Can Fail, the Personal Computer Is So Complex, and Information Appliances Are the Solution", "D. A. Norman", 1998, "Hardback", 25.99, 2, 0, "MIT", "HCI");
+
+INSERT INTO BOOK VALUES ("5432810544791", "From cybernation to interaction: a contribution to an archaeology of interactivity", "E. Huhtamo", 1999, "Softback", 41.00, 0, 1, "MIT", "WEB");
+
+INSERT INTO BOOK VALUES ("4676869395496", "The Future Does Not Compute: Transcending the Machines in Our Midst", "S. L. Talbott", 1995, "Softback", 32.99, 1, 2, "ORA", "IS");
+
+INSERT INTO BOOK VALUES ("5526174045484", "Information Architecture for the World Wide Web", "L. Rosenfeld and P. Morville", 1998, "Softback", 23.00, 1, 2, "ORA", "WEB");
+
+INSERT INTO BOOK VALUES ("1495035399881", "Web Navigation: Designing the User Experience", "J. Fleming", 1998, "Softback", 14.99, 3, 0, "ORA", "WEB");
+
+INSERT INTO BOOK VALUES ("2562061577296", "A Brief History of Hackerdom / Prologue: The Real Programmers", "E. S. Raymond", 1999, "Hardback", 37.99, 1, 2, "ORA", "SOFT");
+
+INSERT INTO BOOK VALUES ("7725105199149", "Hardware, Software, and Infoware", "T. O'Reilly", 1999, "Softback", 28.99, 2, 2, "ORA", "SOFT");
+
+INSERT INTO BOOK VALUES ("5344060684664", "Objective Knowledge", "K. Popper", 1972, "Softback", 40.00, 1, 0, "OUP", "PHIL");
+
+INSERT INTO BOOK VALUES ("8965089282476", "Beyond Programming: To a New Era of design", "B. I. Blum", 1996, "Hardback", 42.00, 0, 1, "OUP", "SOFT");
+
+INSERT INTO BOOK VALUES ("3824649803443", "The New Language of Qualitative Method", "J. E. Gubrium and J. A. Holstein", 1997, "Softback", 47.00, 2, 1, "OUP", "RM");
+
+INSERT INTO BOOK VALUES ("4191168466972", "Rethinking management information systems: an interdisciplinary perspective", "W. Currie and R. Galliers", 1999, "Softback", 42.00, 3, 1, "OUP", "IS");
+
+INSERT INTO BOOK VALUES ("1575186813869", "A Theory of Information Systems Based on Improvisation", "C. U. Ciborra", 1999, "Hardback", 18.99, 0, 1, "OUP", "IS");
+
+INSERT INTO BOOK VALUES ("6913342409453", "Information Systems Development", "D. E. Avison and G. Fitzgerald", 1999, "Hardback", 27.99, 0, 2, "OUP", "IS");
+
+INSERT INTO BOOK VALUES ("2305573241715", "Discovering new theory from previous theory", "A. L. Strauss", 1970, "Softback", 29.00, 1, 2, "PH", "RM");
+
+INSERT INTO BOOK VALUES ("2921324483468", "A discipline of programming", "E. W. Dijkstra", 1976, "Hardback", 32.99, 1, 2, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("8933580656909", "Introduction to systems analysis", "G. A. Silver and J. B. Silver", 1976, "Softback", 27.00, 0, 1, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("7921355784209", "Structured design: fundamentals of a discipline of computer program and systems design", "E. Yourdon and L. L. Constantine", 1978, "Softback", 46.00, 0, 0, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("1682720952748", "Structured Systems Analysis: Tools and Techniques", "C. Gane and T. Sarson", 1979, "Softback", 48.00, 1, 0, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("8904435519685", "Structured Design", "E. Constantine, Yourdon., E.", 1979, "Softback", 37.00, 3, 0, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("6292269925195", "Software Engineering Economics", "B. W. Boehm", 1981, "Hardback", 18.99, 1, 0, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("9926423424124", "Strategic Data-Planning Methodologies", "J. Martin", 1982, "Softback", 46.00, 3, 0, "PH", "IS");
+
+INSERT INTO BOOK VALUES ("8402794346693", "Applications Development Without Programmers", "J. Martin", 1982, "Softback", 13.99, 0, 1, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("6548006166275", "User-centered Requirements Analysis", "C. F. Martin", 1988, "Softback", 43.00, 1, 1, "PH", "HCI");
+
+INSERT INTO BOOK VALUES ("8612419219813", "Systems Analysis and Design", "K. E. Kendall and J. E. Kendall", 1988, "Hardback", 36.00, 3, 0, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("5464310505873", "The Research Act", "N. K. Denzin", 1989, "Softback", 34.00, 3, 1, "PH", "RM");
+
+INSERT INTO BOOK VALUES ("4651699274545", "Wicked problems, righteous solutions: a catalogue of modern software engineering paradigms", "P. DeGrace and L. H. Stahl", 1990, "Softback", 44.00, 3, 2, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("8412083762159", "Hyperdocuments and How to Create Them", "J. Martin", 1990, "Softback", 41.00, 3, 2, "PH", "WEB");
+
+INSERT INTO BOOK VALUES ("3511579128486", "Object-oriented Modeling and Design", "J. Rumbaugh, M. Blaha, W. Premerlani, F. Eddy and W. Lorensen", 1991, "Softback", 31.99, 0, 0, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("5781337190079", "Information networks / Planning and design", "D. Etheridge and E. Simon", 1992, "Softback", 13.99, 0, 1, "PH", "IS");
+
+INSERT INTO BOOK VALUES ("3636870333518", "Mathematical Statistics", "J. E. Freund", 1992, "Softback", 23.99, 3, 0, "PH", "STAT");
+
+INSERT INTO BOOK VALUES ("9269744315056", "Object Oriented Analysis and Design", "J. Martin and J. ODell", 1992, "Hardback", 11.99, 3, 2, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("7933274300117", "Fusion: Integrating IE, CASE, JAD: A Handbook for Reengineering the Systems Organization", "D. C. Andrews and N. S. Leventhal", 1993, "Softback", 27.99, 3, 2, "PH", "IS");
+
+INSERT INTO BOOK VALUES ("3227056229427", "Software Creativity", "R. L. Glass", 1995, "Softback", 44.00, 0, 1, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("2381629678978", "Software Architecture: Perspectives on an Emerging Discipline", "M. Shaw and D. Garlan", 1996, "Softback", 21.00, 2, 2, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("2614423096124", "Death March: The Complete Software Developer's Guide to Surviving 'Mission Impossible' Projects", "E. Yourdon", 1997, "Hardback", 34.00, 1, 0, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("3780475814677", "Design for Multimedia Learning", "T. Boyle", 1997, "Softback", 45.00, 1, 0, "PH", "WEB");
+
+INSERT INTO BOOK VALUES ("3007278953163", "Human-Computer Interaction", "A. J. Dix, J. E. Finlay, G. D. Abowd and R. Beale", 1998, "Softback", 15.99, 1, 1, "PH", "HCI");
+
+INSERT INTO BOOK VALUES ("6753862241586", "Decision Support Systems and Intelligent Systems", "E. Turban and J. E. Aronson", 1998, "Hardback", 42.00, 2, 0, "PH", "IS");
+
+INSERT INTO BOOK VALUES ("5681825305881", "Software Engineering: theory and practice", "S. L. Pfleeger", 1998, "Softback", 29.99, 1, 0, "PH", "SOFT");
+
+INSERT INTO BOOK VALUES ("9515549696095", "Multivariate Data Analysis with Readings", "J. F. Hair, Jr., R. E. Anderson, R. L. Tatham and W. C. Black", 1998, "Softback", 35.99, 3, 2, "PH", "STAT");
+
+INSERT INTO BOOK VALUES ("6139955541681", "Web Site Engineering: Beyond Web Page Design", "T. A. Powell, D. L. Jones and D. C. Cutts", 1998, "Softback", 34.99, 1, 2, "PH", "WEB");
+
+INSERT INTO BOOK VALUES ("3328028478774", "Systems Analysis and Design", "K. E. Kendall and J. E. Kendall", 1999, "Softback", 27.99, 0, 2, "PH", "SAND");
+
+INSERT INTO BOOK VALUES ("4481730183098", "Agile Software Development: Principles, Patterns, and Practices", "R. C. Martin", 2002, "Softback", 24.99, 3, 2, "PH", "SOFT");

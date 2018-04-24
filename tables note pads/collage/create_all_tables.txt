@@ -1,0 +1,130 @@
+create table Course
+(
+		
+course_id			varchar(10),
+        
+course_name			varchar(100) not null,
+        
+course_levle 			int(2) not null,
+        
+course_description		varchar(1024) not null,
+        
+primary key			(course_id)
+
+);
+
+create table Module
+(
+		
+module_id			varchar(10),
+        
+module_name			varchar(100) not null,
+        
+module_descripter		varchar(1024) not null,
+        
+module_credits			int(2) not null,
+        
+number_of_assments 		int(2) not null,
+        
+primary key			(module_id)
+
+);
+
+create table Teachers
+(
+		
+teacher_id			varchar(6),
+        
+first_name 			varchar(50) not null,
+        
+last_name			varchar(75) not null,
+        
+login				varchar(16) not null unique,
+		
+primary key			(teacher_id)
+
+);
+
+create table Module_Course
+(
+		
+module_id			varchar(10),
+        
+course_id			varchar(10),
+        
+primary key 			(module_id,course_id),
+        
+foreign key			(module_id)references Module(module_id),
+        
+foreign key			(course_id)references Course(course_id)
+
+);
+
+create table Class_Group
+(
+		
+class_group_id			varchar(8),
+				
+course_id			varchar(10),
+		
+primary key			(class_group_id),
+		
+foreign key			(course_id)references Course(course_id)
+
+);
+
+create table Students
+(
+		
+student_id			varchar(6),
+        
+first_name			varchar(50) not null,
+        
+last_name			varchar(75) not null,
+        
+address_line1 			varchar(75),
+        
+address_line2			varchar(75),
+        
+county				varchar(50),
+        
+country				varchar(50),
+        
+mobile				varchar(20) unique,
+        
+email				varchar(50) unique,
+        
+class_group_id			varchar(8),
+		
+PRIMARY KEY			(student_id),
+        
+foreign key			(class_group_id)references class_group(class_group_id)
+
+);
+
+create table Students_Results
+(
+		
+student_id			varchar(6),
+		
+class_group_id			varchar(8),
+		
+module_id			varchar(10),
+		
+assment_1			int(3)not null,
+		
+assment_2			int(3)not null,
+		
+exam				int(3)not null,
+		
+grade				varchar(20)not null,
+		
+primary key			(student_id,class_group_id,module_id),
+		
+foreign key			(student_id)references Students(student_id),
+		
+foreign key			(class_group_id)references Class_Group(class_group_id),
+		
+foreign key			(module_id)references Module(module_id)
+
+);
