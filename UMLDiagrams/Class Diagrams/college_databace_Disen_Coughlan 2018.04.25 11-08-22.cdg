@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="college_databace_Disen_Coughlan">
+  <ClassDiagramComponents>
+    <Class name="addStudentFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="s1" type="student" visibility="package"/>
+        <Field name="addB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="address_line_1Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="address_line_2Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="backB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="class_group_idTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="contyTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="countryTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="emailTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="first_nameTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="last_nameTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="moibleTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="saveB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="student_id_Tf" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="backBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="addBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="saveBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="addStudentResultsFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="2091.0" yPosition="500.0">
+      <Fields>
+        <Field name="s1" type="student" visibility="package"/>
+        <Field name="assment1L" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="assment1Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="assment2L" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="assment2Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="assment3L" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="assment3Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="classGroupCb" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="classGroupL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="clearListB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="examL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="examTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="menuB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="modulesL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="modulesLi" type="java.awt.List" visibility="private"/>
+        <Field name="modulesNamesLi" type="java.awt.List" visibility="private"/>
+        <Field name="saveAndAddB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="searchB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="studentIdL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="studentIdLi" type="java.awt.List" visibility="private"/>
+        <Field name="studentNameL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="studentNameLi" type="java.awt.List" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="menuBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="searchBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="clearListBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="saveAndAddBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="formWindowActivated" returnType="void" visibility="private">
+          <Argument type="java.awt.event.WindowEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="adminFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="20.0" yPosition="1093.0">
+      <Fields>
+        <Field name="addStudentB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="editStudentTf" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="removeStudentB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="signOutB" type="javax.swing.JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="signOutBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="addStudentBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="removeStudentBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="editStudentTfActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="College_databace_Disen_Coughlan" package="college_databace_disen_coughlan" visibility="public" xPosition="706.0" yPosition="981.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="editStudentFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="1405.0" yPosition="724.0">
+      <Fields>
+        <Field name="addressLine1OldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="addressLine1Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="addressLine2OldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="addressLine2Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="backB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="classGroupOldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="classGroupTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="clearB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="countyOldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="countyTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="crountryOldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="crountryTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="emailOldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="emailTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="mobileOldTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="mobileTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="saveB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="searchB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="searchListB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="studentIdLi" type="java.awt.List" visibility="private"/>
+        <Field name="studentNameLi" type="java.awt.List" visibility="private"/>
+        <Field name="studentSearchCb" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="backBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="saveBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="searchBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="clearBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="searchListBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="editStudentResultFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="1395.0" yPosition="11.0">
+      <Fields>
+        <Field name="s1" type="student" visibility="package"/>
+        <Field name="assment1L" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="assment1Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="assment2L" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="assment2Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="assment3L" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="assment3Tf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="classGroupCb" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="classGroupL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="clearListB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="examL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="examTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="menuB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="modulesL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="modulesLi" type="java.awt.List" visibility="private"/>
+        <Field name="modulesNamesLi" type="java.awt.List" visibility="private"/>
+        <Field name="saveAndAddB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="searchB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="studentIdL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="studentIdLi" type="java.awt.List" visibility="private"/>
+        <Field name="studentNameL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="studentNameLi" type="java.awt.List" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="menuBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="searchBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="clearListBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="saveAndAddBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="formWindowActivated" returnType="void" visibility="private">
+          <Argument type="java.awt.event.WindowEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="loginFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="692.0" yPosition="1116.0">
+      <Fields>
+        <Field name="s1" type="staff" visibility="package"/>
+        <Field name="loginB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="passwordL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="passwordPf" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="quitB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="userNameL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="userNameTf" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="loginBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="quitBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="passwordPfKeyPressed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="removeStudentFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="2091.0" yPosition="20.0">
+      <Fields>
+        <Field name="s1" type="student" visibility="package"/>
+        <Field name="backB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="clearB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="courseL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="courseOutPutL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="idLi" type="java.awt.List" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="nameL" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="nameTf" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="namesLi" type="java.awt.List" visibility="private"/>
+        <Field name="removeStudentB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="searchB" type="javax.swing.JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="backBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="searchBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="removeStudentBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="namesLiMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="clearBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="showStudentRecordFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="706.0" yPosition="554.0">
+      <Fields>
+        <Field name="assmentsLi" type="java.awt.List" visibility="private"/>
+        <Field name="classGroupLi" type="java.awt.List" visibility="private"/>
+        <Field name="clearB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="examsLi" type="java.awt.List" visibility="private"/>
+        <Field name="gradeLi" type="java.awt.List" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="menuB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="modulesLi" type="java.awt.List" visibility="private"/>
+        <Field name="searchB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="studentIdLi" type="java.awt.List" visibility="private"/>
+        <Field name="studentNameLi" type="java.awt.List" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="menuBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="searchBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="formWindowActivated" returnType="void" visibility="private">
+          <Argument type="java.awt.event.WindowEvent" name="evt"/>
+        </Method>
+        <Method name="clearBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="studentsReportsFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="706.0" yPosition="17.0">
+      <Fields>
+        <Field name="r1" type="reports" visibility="package"/>
+        <Field name="DistinctionB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="backB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton10" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton11" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton12" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton6" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton7" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton8" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton9" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="modulesNumbersB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="noOfStudentsB" type="javax.swing.JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="backBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="DistinctionBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="noOfStudentsBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="modulesNumbersBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="teacherFrame" package="college_databace_disen_coughlan" visibility="public" xPosition="20.0" yPosition="708.0">
+      <Fields>
+        <Field name="addResultB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="editStudentResultB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="signOutB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="studentRecordB" type="javax.swing.JButton" visibility="private"/>
+        <Field name="studentReportsB" type="javax.swing.JButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="signOutBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="addResultBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="studentRecordBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="editStudentResultBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="studentReportsBActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

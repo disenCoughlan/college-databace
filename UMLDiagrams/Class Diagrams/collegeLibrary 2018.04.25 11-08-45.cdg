@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="collegeLibrary">
+  <ClassDiagramComponents>
+    <Class name="person" package="classes" visibility="public" xPosition="368.0" yPosition="17.0">
+      <Fields>
+        <Field name="fName" type="String" visibility="package"/>
+        <Field name="lName" type="String" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="setFName" returnType="void" visibility="public">
+          <Argument type="String" name="enteredFName"/>
+        </Method>
+        <Method name="getFName" returnType="String" visibility="public"/>
+        <Method name="setLName" returnType="void" visibility="public">
+          <Argument type="String" name="enteredLName"/>
+        </Method>
+        <Method name="getLName" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="reports" package="classes" visibility="public" xPosition="682.0" yPosition="614.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="report1" returnType="void" visibility="public"/>
+        <Method name="report2" returnType="void" visibility="public"/>
+        <Method name="report3" returnType="void" visibility="public"/>
+        <Method name="report4" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="staff" package="classes" visibility="public" xPosition="567.0" yPosition="291.0">
+      <Fields>
+        <Field name="staffId" type="String" visibility="private"/>
+        <Field name="login" type="String" visibility="private"/>
+        <Field name="loginCheck" type="String" visibility="private"/>
+        <Field name="loginCheckA" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="staffIdP"/>
+          <Argument type="String" name="fNameP"/>
+          <Argument type="String" name="lNameP"/>
+          <Argument type="String" name="loginP"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setStaffId" returnType="void" visibility="public">
+          <Argument type="String" name="enteredStaffId"/>
+        </Method>
+        <Method name="getStaffId" returnType="String" visibility="public"/>
+        <Method name="setLogin" returnType="void" visibility="public">
+          <Argument type="String" name="enteredLogin"/>
+        </Method>
+        <Method name="getLogin" returnType="String" visibility="public"/>
+        <Method name="getLoginCheck" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="student" package="classes" visibility="public" xPosition="99.0" yPosition="291.0">
+      <Fields>
+        <Field name="studentId" type="String" visibility="private"/>
+        <Field name="addressLine1" type="String" visibility="private"/>
+        <Field name="addressLine2" type="String" visibility="private"/>
+        <Field name="county" type="String" visibility="private"/>
+        <Field name="country" type="String" visibility="private"/>
+        <Field name="mobile" type="String" visibility="private"/>
+        <Field name="email" type="String" visibility="private"/>
+        <Field name="classGroupId" type="String" visibility="private"/>
+        <Field name="incert" type="String" visibility="private"/>
+        <Field name="search" type="String" visibility="private"/>
+        <Field name="personsName" type="String" visibility="private"/>
+        <Field name="grade" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="setStudentId" returnType="void" visibility="public">
+          <Argument type="String" name="enteredStudentId"/>
+        </Method>
+        <Method name="getStudentId" returnType="String" visibility="public"/>
+        <Method name="setAddressLine1" returnType="void" visibility="public">
+          <Argument type="String" name="enteredAddressLine1"/>
+        </Method>
+        <Method name="getAddressLine1" returnType="String" visibility="public"/>
+        <Method name="setAddressLine2" returnType="void" visibility="public">
+          <Argument type="String" name="enteredAddressLine2"/>
+        </Method>
+        <Method name="getAddressLine2" returnType="String" visibility="public"/>
+        <Method name="setCounty" returnType="void" visibility="public">
+          <Argument type="String" name="enteredCounty"/>
+        </Method>
+        <Method name="getCounty" returnType="String" visibility="public"/>
+        <Method name="setCountry" returnType="void" visibility="public">
+          <Argument type="String" name="enteredCountry"/>
+        </Method>
+        <Method name="getCountry" returnType="String" visibility="public"/>
+        <Method name="setMobile" returnType="void" visibility="public">
+          <Argument type="String" name="enteredMobile"/>
+        </Method>
+        <Method name="getMobile" returnType="String" visibility="public"/>
+        <Method name="setEmail" returnType="void" visibility="public">
+          <Argument type="String" name="enteredEmail"/>
+        </Method>
+        <Method name="getEmail" returnType="String" visibility="public"/>
+        <Method name="setClassGroupId" returnType="void" visibility="public">
+          <Argument type="String" name="enteredClassGroupId"/>
+        </Method>
+        <Method name="getClassGroupId" returnType="String" visibility="public"/>
+        <Method name="incert" returnType="void" visibility="public"/>
+        <Method name="getDouble" returnType="double" visibility="public" isStatic="true">
+          <Argument type="String" name="enteredNumber"/>
+        </Method>
+        <Method name="setGrade" returnType="void" visibility="public">
+          <Argument type="double" name="num1"/>
+          <Argument type="double" name="num2"/>
+          <Argument type="double" name="num3"/>
+          <Argument type="double" name="num4"/>
+        </Method>
+        <Method name="getGrade" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="classes.student" target="classes.person"/>
+    <IsRelation name="is" source="classes.staff" target="classes.person"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

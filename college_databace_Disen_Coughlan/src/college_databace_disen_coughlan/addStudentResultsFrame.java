@@ -394,7 +394,8 @@ conn.close();
     }//GEN-LAST:event_saveAndAddBActionPerformed
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
-         try{
+        classGroupCb.removeAll();
+        try{
 String url = "jdbc:mysql://127.0.0.1:3306/";
 String dbName = "college";
           String driver = "com.mysql.jdbc.Driver";
