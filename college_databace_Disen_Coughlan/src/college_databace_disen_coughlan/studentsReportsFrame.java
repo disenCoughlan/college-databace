@@ -39,7 +39,7 @@ reports r1 = new reports();
         DistinctionB = new javax.swing.JButton();
         noOfStudentsB = new javax.swing.JButton();
         modulesNumbersB = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        meritsB = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
@@ -81,16 +81,26 @@ reports r1 = new reports();
             }
         });
 
-        jButton4.setText("jButton4");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        meritsB.setText("all students who got Merits");
+        meritsB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                meritsBActionPerformed(evt);
             }
         });
 
-        jButton5.setText("jButton5");
+        jButton5.setText("all students who got Passes");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
-        jButton6.setText("jButton6");
+        jButton6.setText("all students who falled");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setText("jButton7");
 
@@ -117,7 +127,7 @@ reports r1 = new reports();
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(DistinctionB)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton4)
+                        .addComponent(meritsB)
                         .addGap(18, 18, 18)
                         .addComponent(jButton7))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -146,7 +156,7 @@ reports r1 = new reports();
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(DistinctionB)
-                    .addComponent(jButton4)
+                    .addComponent(meritsB)
                     .addComponent(jButton7))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -199,9 +209,17 @@ reports r1 = new reports();
        r1.report3();
     }//GEN-LAST:event_modulesNumbersBActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void meritsBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_meritsBActionPerformed
         r1.report4();
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_meritsBActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        r1.report5();
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        r1.report6();
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -244,13 +262,13 @@ reports r1 = new reports();
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton meritsB;
     private javax.swing.JButton modulesNumbersB;
     private javax.swing.JButton noOfStudentsB;
     // End of variables declaration//GEN-END:variables
